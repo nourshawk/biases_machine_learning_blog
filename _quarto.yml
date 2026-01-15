@@ -1,23 +1,27 @@
+# project:
+#   type: website
+
+# website:
+#   description: "A blog built with Quarto"
+#   site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+#   title: "biases_machine_learning_blog"
+#   navbar:
+#     right:
+#       - about.qmd
+#       - icon: github
+#         href: https://github.com/
+#       - icon: twitter
+#         href: https://twitter.com
+# format:
+#   html:
+#     theme:
+#       - cosmo
+#       - brand
+#     css: styles.css
+
 project:
   type: website
-
-website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "biases_machine_learning_blog"
-  navbar:
-    right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
-format:
-  html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+  output-dir: docs
 
 
 
