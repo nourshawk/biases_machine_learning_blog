@@ -5,5 +5,12 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "When Machines Learn Our Biases: The Real-World Consequences",
+    "section": "",
+    "text": "Figure 1: The Cycle of Bias — How seemingly harmless data can propogate extremely harmful biases"
   }
 ]

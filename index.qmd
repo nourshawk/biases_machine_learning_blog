@@ -1,11 +1,19 @@
 ---
 title: "When Machines Learn Our Biases: The Real-World Consequences"
+subtitle: "Understanding how historical data shapes modern machine learning systems"
+author: "Nour Shawky"
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 format:
   html:
+    css: styles.css
     toc: true
     toc-depth: 3
 ---
 
+![Figure 1: The Cycle of Bias — How seemingly harmless data can propogate extremely harmful biases](profile_pic_2.jpg){width=80%}
+
+<br>
+
+## 
 
