@@ -85,7 +85,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  <li><a href="#what-is-a-bias" id="toc-what-is-a-bias" class="nav-link active" data-scroll-target="#what-is-a-bias">What is a Bias?</a></li>
+  <li><a href="#why-is-this-important" id="toc-why-is-this-important" class="nav-link" data-scroll-target="#why-is-this-important">Why is this important?</a></li>
+  <li><a href="#case-study-durhams-policing-algorithm-hart" id="toc-case-study-durhams-policing-algorithm-hart" class="nav-link" data-scroll-target="#case-study-durhams-policing-algorithm-hart">Case Study: Durham’s Policing Algorithm (HART)</a></li>
+  <li><a href="#long-term-consequences" id="toc-long-term-consequences" class="nav-link" data-scroll-target="#long-term-consequences">Long-term consequences</a></li>
+  <li><a href="#whats-the-solution" id="toc-whats-the-solution" class="nav-link" data-scroll-target="#whats-the-solution">What’s the Solution?</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
   </ul>
 </nav>
     </div>
@@ -120,13 +125,88 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="profile_pic_2.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption>Figure 1: The Cycle of Bias — How seemingly harmless data can propogate extremely harmful biases</figcaption>
+<p><img src="profile_pic_2.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Figure 1: The Cycle of Bias — How seemingly harmless data can propogate extremely harmful biases (Leslie, 2021)</figcaption>
 </figure>
 </div>
 <p><br></p>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<p>Currently, machine learning models rely on vast datasets in order to be able to produce accurate and reliable outcomes. Whether that is using a dataset of bank transactions to learn how to detect fraud or using a dataset of emails to learn the patterns of spam. But applications of AI and machine learning algorithms go beyond this. In the last few years, they’ve been implemented in high-stake applications such as criminal court sentencing decisions, policing algorithms, patient diagnoses and to automate job hiring processes.</p>
+<p>Just image how much automation goes on behind the scenes? Let me give you an idea. ’According to research, 77% of companies are either using or exploring the use of AI in their businesses, and 83% of companies claim that AI is a top priority in their business plans (Prestianni, 2025).”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="AI_stats.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Figure 2: Reasons for the adoption of AI and ML in industry</figcaption>
+</figure>
+</div>
+<p>Although machine learning is a subset of AI, it’s application in industry is similarly vast. So let us breakdown what we mean by bias and why they are problematic during the development of such models.</p>
+<section id="what-is-a-bias" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-a-bias">What is a Bias?</h3>
+<p>A bias is the tendency to lean or favor a particular ideology or standpoint. What about a historical bias? These emerge from past social, racial, political and economic prejudice, and become systematically implemented in data over time.</p>
+</section>
+<section id="why-is-this-important" class="level3">
+<h3 class="anchored" data-anchor-id="why-is-this-important">Why is this important?</h3>
+<p>If the goal is to build and deploy reliable models that can help alleviate the human labor involved in many processes, we need to ensure that these systems learn as many meaningful patterns as possible from existing data, whilst fairly and accurately representing the contexts and people they are meant to serve. Additionally, this also maintains trust and transparency in machine learning and the use of AI in real-world applications.</p>
+<p><strong>Fundamental Goal:</strong> Develop and Deploy advancements in data science whilst maintaining fairness and equity.</p>
+<p>Many companies now rely on these automated systems in order to make decisions. In fact, ‘An estimated 99% of Fortune 500 companies now use some form of automation in their hiring process’ (Milne, 2024). Take for instance, company X, which is in the process of recruiting a new full-time lead machine learning engineer. Of course, while historical biases present in the data used to build such an algorithm are often unavoidable, it is still important to recognize that systematic discrimination exists and is often embedded in a lot of the data used to build these algorithms. If this company blindly trains a model on such data, after conducting all the necessary cleaning, preprocessing and transformations of course, it may find that many of the outcomes tend to favor candidates from certain backgrounds, discrediting those from marginalized communities, not because of their technical ability, but because of the inherent racial bias present in the data that was not acknowledged during the training phase. Back in 2015, it was actually found that Amazon, one of the largest tech companies today, used an AI recruiting tool that was biased against women, largely because it was trained on historical data dominated by male candidates in the tech industry (Dastin, 2018).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="recruitment_bias.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Figure 3: Visual Representation of recruitment bias in ML-based hiring algorithms</figcaption>
+</figure>
+</div>
+<p>Our responsibility as data scientists isn’t just about building the best performing models or optimizing strategies for feature engineering, but it is also about ensuring that we put out into the world is just and fair. Otherwise, many consequences may arise including lost opportunities, reinforced inequalities and overall reduced trust in AI and machine learning driven processes.</p>
+</section>
+<section id="case-study-durhams-policing-algorithm-hart" class="level3">
+<h3 class="anchored" data-anchor-id="case-study-durhams-policing-algorithm-hart">Case Study: Durham’s Policing Algorithm (HART)</h3>
+<p>In 2021, Durham Police was criticised for their use of a flawed AI profiling tool that used ‘crude and discriminatory’ data profiles at the core of it’s algorithm (Fair Trials, 2022). The consequences? Targetted and discriminatory policing of low income neighborhoods, where more individuals were likely to be arrested and charged, with many of the targtted postal codes in the city being labelled as ‘multicultural’ and ‘overcorwded’.</p>
+<p>The HART algorithm was also found to have a predictive accuracy of 53.8%, meaning it was likely to make correct predictions approximately half the time, yet continued to be utilized from 2016 to 2021.</p>
+</section>
+<section id="long-term-consequences" class="level3">
+<h3 class="anchored" data-anchor-id="long-term-consequences">Long-term consequences</h3>
+<p>Not only can these exacerbated biases be harmful to communities, but the consquences also extend to the tech and data science industries as well. Below I summarise the main long-term conseuqences of flawed training data in machine learning:</p>
+<ul>
+<li>Unjust loss of oppertunities</li>
+<li>Lack of trust in the use of automative technology</li>
+<li>Lack of respect for the industry</li>
+<li>Lack of transparency and understanding in important decision-making processes</li>
+</ul>
+</section>
+<section id="whats-the-solution" class="level3">
+<h3 class="anchored" data-anchor-id="whats-the-solution">What’s the Solution?</h3>
+<section id="looking-at-mitigating-strategies" class="level4">
+<h4 class="anchored" data-anchor-id="looking-at-mitigating-strategies">Looking at Mitigating Strategies</h4>
+<p>Eliminating all forms of bias is nearly impossible, but implementing stratgies that can mitigate their effects is definitely possible.</p>
+<p><img src="trust_ML.png" class="img-fluid" style="width:90.0%"></p>
+</section>
+<section id="data-driven-approaches" class="level4">
+<h4 class="anchored" data-anchor-id="data-driven-approaches">1. Data Driven Approaches</h4>
+<ul>
+<li><strong>Continuing to collect more data</strong>: Collecting more representative data and ensuring certain groups are not underrepresented can help counter the effects of existing datasets that are flawed and biased.</li>
+</ul>
+</section>
+<section id="maintaining-human-oversight" class="level4">
+<h4 class="anchored" data-anchor-id="maintaining-human-oversight">2. Maintaining Human Oversight</h4>
+<ul>
+<li><p><strong>Auditing and evaluating data and model performance</strong>: Data Scientists and other industry professionals should always be evaluating the quality of a dataset with regard to bias. They should continuously conduct thorough exploratory analyses to flag for potential unethical trends that could be captured by a machine learning model. Additionally, continuously evaluate model performance with respect to each subgroup of people, especially vulnerable subgroups.</p>
+<ul>
+<li><strong>For example:</strong> HR employees should take note if their algorithm shows consistent preference for White Male Applicants compared to other racial minorities.</li>
+</ul></li>
+<li><p><strong>Keep humans in the decision making process</strong>: When it comes to high stake decisions, avoid complete reliance on automation and model predictions.</p>
+<ul>
+<li><strong>For example:</strong> In healthcare, the decision for whether a patient should receive chemotherapy or radiation treatment for their cancer diagnoses should not be solely decided by an algorithm. Health data is often flawed whereby it fails to capture important gender, racial and socioeconomic factors influencing health outcomes. Health care professionals should validate model decisions with the full knowledge of a pateint’s demographic and medical history.</li>
+</ul></li>
+</ul>
+<p>As difficult as it may be, adopting an ethical framework even in the world of data science is a must. Without these considerations, there would be catastrophic backlash towards the use of machine learning models in the real-world. It is the responsibility of data scientists and related professions to ensure that historical biases are not further perpetuated by the algorithms they build and continue to generate strategies that attempt to eliminate their harmful effects on the world.</p>
+</section>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References:</h3>
+<p>Leslie, D., Mazumder, A., Peppin, A., Wolters, M. K., &amp; Hagerty, A. (2021). Does “AI” stand for augmenting inequality in the era of covid-19 healthcare?. bmj, 372.</p>
+<p>Prestianni, T. (2025, March 4). 131 AI statistics and trends for 2026. National University. https://www.nu.edu/blog/ai-statistics-trends/</p>
+<p>Fair Trials. (2022, August 15). FOI reveals over 12,000 people profiled by flawed Durham police predictive AI tool. Fair Trials. https://www.fairtrials.org/articles/news/foi-reveals-over-12000-people-profiled-by-flawed-durham-police-predictive-ai-tool/</p>
+<p>Milne, S. (2024, October 31). AI tools show biases in ranking job applicants’ names according to perceived race and gender. UW News. https://www.washington.edu/news/2024/10/31/ai-bias-resume-screening-race-gender/</p>
+<p>Dastin, J. (2018, October 10). Amazon scraps secret AI recruiting tool that showed bias against women. Reuters. https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/</p>
+<p>Word count: 1074</p>
 
 
 </section>
