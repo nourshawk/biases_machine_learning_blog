@@ -58,7 +58,7 @@ Not only can these exacerbated biases be harmful to communities, but the consque
 
 Eliminating all forms of bias is nearly impossible, but implementing stratgies that can mitigate their effects is definitely possible.
 
-![](trust_ML.png){width=90%}
+![](trust_ML.jpg){width=90%}
 
 #### 1. Data Driven Approaches
 
